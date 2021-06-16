@@ -12260,6 +12260,7 @@ new _bundle.default(".main-slider", {
   slidesPerView: "auto",
   initialSlide: 0,
   centeredSlides: false,
+  slideToClickedSlide: true,
   coverflowEffect: {
     rotate: 0,
     stretch: 200,
@@ -12330,7 +12331,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55676" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52982" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
